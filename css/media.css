@@ -1,0 +1,127 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+   
+}
+
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+    .header-text{
+        padding-top: 50%;
+        padding-left: 3%;
+    }
+}
+
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    .header-text{
+        padding-top: 70%;
+        padding-left: 3%;
+    }
+    .features-item p{
+        font-size: 20pt;
+    }
+}
+
+
+/* 769  - 960 px */
+@media screen and (max-width: 960px) {
+    .header-logo img{
+        position: absolute;
+        top: 3%;
+    }
+    nav li {
+        padding: 3%;
+      }
+    nav a{
+        font-size: 20pt;
+    }
+    .footer-banner h2{
+        padding-top: 50%;
+    }
+    .contacts-section h2{
+        font-size: 18pt;
+    }
+    .contacts-section p{
+        font-size: 17pt;
+    }
+    .social-links h2{
+        font-size: 18pt;
+    }
+    .header-text{
+        padding-top: 50%;
+        padding-left: 3%;
+    }
+}
+
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .header-text span {
+        font-size: 30pt;
+    }
+    .features-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .features-item{
+        padding-top: 8%;
+    }
+    .service-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-row > .row-text{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .second-row > .row-text{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .row-img{
+        display: none;
+    }
+    .service-card-extended span{
+        font-size: 10pt;
+    }
+    .service-card-extended h5{
+        font-size: 10pt;
+    }
+    .service-card-trimmed h2 {
+        font-size: 15pt;
+    }
+    .service-card-trimmed-another h2 {
+        font-size: 15pt;
+    }
+    .service-card-extended-another h4 {
+        font-size: 25pt;
+    }
+}
+
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    .row-text h2 {
+        color: #a2ca28;
+        font-size: 20pt;
+        text-transform: uppercase;
+    }
+    .service-card-extended-another h4 {
+        font-size: 15pt;
+    }
+    .service-card-extended-another h5 {
+        font-size: 8pt;
+    }
+    .contacts-section {
+        display: none;
+    }
+    .social-links {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .footer-banner p{
+        display: none;
+    }
+}
